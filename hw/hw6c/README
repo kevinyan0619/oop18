@@ -1,0 +1,10 @@
+Author: Shucheng Yan
+NetID: sy1253
+
+The results are based on the console in PythonAnyWhere
+
+For mem_test.cpp:
+The program stops after 220826 loops, having allocated 220826*8*1000 bytes.
+
+For stack_overflow.py:
+The increment() function can be called 973 times recursively before running out of stack space.
