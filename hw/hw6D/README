@@ -1,0 +1,6 @@
+Author: Shucheng Yan
+NetID: sy1253
+
+The reason that vect1.cpp failed:
+
+In vect1.cpp, v and v2 are pointing to the same vector object. When the function f() exits, the destructor will be called for both v and v2. This means the destructor will be called twice for the same object. After the first call, the memory will be freed. The second call will try to free the memory that has already been freed.
