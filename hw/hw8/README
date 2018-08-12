@@ -1,0 +1,30 @@
+Author: Shucheng Yan
+NetID: sy1253
+
+Customized features in this version:
+The following operations are added to this calculator. To run any of the examples below, please type "op(val);" in the console. For example, to get the value of sin for a 45 degree angle, type sin(45);
+
+sin
+cos
+tan
+
+asin
+acos
+atan
+
+sinh
+cosh
+tanh
+
+exp
+
+sqrt
+cbrt
+
+log
+log2
+log10
+
+floor
+ceil
+abs
